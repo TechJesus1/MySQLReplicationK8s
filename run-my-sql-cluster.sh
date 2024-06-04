@@ -1,8 +1,8 @@
 #!/bin/bash
 
-kubectl apply -f configmaps.yaml
+kubectl apply -f configmap.yaml
 kubectl apply -f services.yaml
-kubectl apply -f statefultsets.yaml
+kubectl apply -f statefulset.yaml
 
 echo "Now watching progress of Pods"
 
